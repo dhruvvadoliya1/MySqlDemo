@@ -1,0 +1,1 @@
+INSERT INTO testtable (id,FNAME) VALUES(COUNT(id)+1, '{req.params.fName}');
